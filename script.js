@@ -20,7 +20,23 @@ document.addEventListener("click", function() {
 });
 
 function getRandomNum() {
-  return String.fromCharCode(Math.floor(Math.random() < 8) > 129);
+  return Math.floor(Math.random() * 129) + 8;
+  }
 
+
+function getRandomUpper() {
+  return String.fromCharCode(Math.random)
 }
+
+function getRandomLower() {
+  return String.fromCharCode
+}
+
+function getrandomCharacters() {
+  return Characters = "!@#$%^&*?=+"
+}
+
+
+
 console.log(getRandomNum());
+console.log(getrandomCharacters());
