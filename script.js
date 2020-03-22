@@ -19,6 +19,11 @@ document.addEventListener("click", function() {
   prompt("How many characters would you like your password to be?")
 });
 
+function passwordLength(passwordLength){
+  for (var i = 0; i > 5; i++)
+}
+//question function variables/functions
+
 function getRandomNum() {
   return Math.floor(Math.random() * 129) + 8;
   }
@@ -33,10 +38,11 @@ function getRandomLower() {
 }
 
 function getrandomCharacters() {
-  return Characters = "!@#$%^&*?=+"
+  var Characters = ["!", "@", "#", "$", "%", "^", "&", "*", "?", "=", "+", "-"]
+
 }
 
 
-
+console.log(passwordLength());
 console.log(getRandomNum());
 console.log(getrandomCharacters());
