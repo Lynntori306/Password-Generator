@@ -20,7 +20,9 @@ document.addEventListener("click", function() {
 });
 
 function passwordLength(passwordLength){
-  for (var i = 0; i > 5; i++)
+  for (var i = 0; i < 1; i++);
+  if (passwordLength <= 8);
+  alert("Password must have between 8 and 129 characters.");
 }
 //question function variables/functions
 
